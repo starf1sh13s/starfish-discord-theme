@@ -1,0 +1,25 @@
+/**
+ * @name Starfish Theme
+ * @description A tropical, mermaid-core vibe with pink, orange, and teal accents
+ * @version 1.0
+ * @author Fiona
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root {
+  --main-color: #ff6f91;
+  --accent-color: #00cfc1;
+  --background-color: #fff5e1;
+  --font-family: 'Pacifico', cursive;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--main-color);
+  font-family: var(--font-family);
+}
+
+.theme-accent {
+  color: var(--accent-color);
+}
